@@ -1,0 +1,1 @@
+pip install javascript mysql mysql-connector-python

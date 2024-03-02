@@ -1,0 +1,3 @@
+nickname=__a
+portal=yota
+auto_chat_file=autochat/auto_chat.txt
