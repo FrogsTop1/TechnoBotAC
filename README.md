@@ -2,7 +2,7 @@
 mineblaze bot which can auto chating and bulling players.
 
 Установка и Настройка:
-1. У вас должен стоять Python. Если он у вас не установлен, установите его с https://www.python.org/
+1. У вас должны стоять Python и Node.js. Если они у вас не установлены, установите их с https://www.python.org/ и https://nodejs.org/
 2. Перетащите папку в удобное для вас место.
 3. Запустите батник ``install_libraries.bat`` чтобы у вас установились все необходимые библиотеки, после их установки он закроется.
 4. Настройте бота в ``bot_config.py``:
