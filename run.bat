@@ -1,3 +1,3 @@
 color 2
 cls
-python technobotAC.py
+python technobot.py
