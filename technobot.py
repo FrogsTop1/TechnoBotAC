@@ -45,11 +45,11 @@ async def console_input(bot):
             print(f"Авто-чат переключен на {bot_config.auto_chat}")
 
         elif user_input == ".toggle autoClanInviting":
-            bot_config.clan_inviting = not bot_config.auto_clan_inviting
+            bot_config.auto_clan_inviting = not bot_config.auto_clan_inviting
             print(f"Авто-приглашение переключено на {bot_config.auto_clan_inviting}")
 
         elif user_input == ".toggle autoChatGame":
-            bot_config.auto_chatgame = not bot_config.auto_chat_game
+            bot_config.auto_chat_game = not bot_config.auto_chat_game
             print(f"Авто-чат-игра переключено на {bot_config.auto_chat_game}")
 
         elif user_input.startswith(".repeat "):
