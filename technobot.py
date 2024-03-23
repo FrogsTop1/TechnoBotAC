@@ -1,6 +1,7 @@
 from javascript import require, On
 import asyncio
 import random
+import time
 
 import bot_config
 
@@ -188,9 +189,6 @@ def extract_nickname(msg):
 
 
 if __name__ == "__main__":
-    setup_bot()
-    asyncio.run(console_input(bot))
-
     with open(bot_config.auto_chat_file, mode="r", encoding="utf-8") as file:
         lines = file.readlines()
         for line in lines:
@@ -199,3 +197,6 @@ if __name__ == "__main__":
             elif ",," in line:
                 split = line.split(",,")
                 bot_config.auto_chat_data[split[0].replace("\"", "")] = split[1].replace("\"", "")
+
+    setup_bot()
+    asyncio.run(console_input(bot))
